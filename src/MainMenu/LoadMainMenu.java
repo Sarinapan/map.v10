@@ -181,7 +181,7 @@ public class LoadMainMenu extends Application {
            // Event Petone label
         Label Petone = new Label("Petone");
         Petone.setFont(Font.font("segoe print", FontWeight.BOLD, 16));
-        Petone.setTextFill(Color.LIGHTGRAY);
+        Petone.setTextFill(Color.DARKGREY);
        Petone.setPrefSize(260, 140);
       Petone.setTranslateX(-10);
         Petone.setTranslateY(-210);
@@ -192,13 +192,13 @@ public class LoadMainMenu extends Application {
                 "1.	Armed robbery and the offender is on the move\n" +
                 "2.	kidnapping and the offender is on the move");
         PetoneInfo.setFont(Font.font("segoe print", FontWeight.BOLD, 14));
-     PetoneInfo.setTextFill(Color.LIGHTGREY);
+     PetoneInfo.setTextFill(Color.DARKGREY);
        PetoneInfo.setPrefSize(500, 140);
       PetoneInfo.setTranslateX(-10);
         PetoneInfo.setTranslateY(-230);
         
             // Event Petone label
-        Label Wellington = new Label("Wellingto");
+        Label Wellington = new Label("Wellington");
         Wellington .setFont(Font.font("segoe print", FontWeight.BOLD, 16));
         Wellington .setTextFill(Color.LIGHTGRAY);
        Wellington .setPrefSize(260, 140);
@@ -282,7 +282,7 @@ public class LoadMainMenu extends Application {
         SIcon.setTranslateY(-290);
 
         
-        Image image1 = new Image("Images/ScenarioBackG.jpg");
+        Image image1 = new Image("Images/EventBackG.jpg");
         VBox vbox2 = new VBox(0);
         vbox2.setBackground(new Background(new BackgroundImage(image1, BackgroundRepeat.REPEAT, BackgroundRepeat.REPEAT, BackgroundPosition.DEFAULT, BackgroundSize.DEFAULT)));
         vbox2.setPadding(new Insets(100, 120, 20, 90));
